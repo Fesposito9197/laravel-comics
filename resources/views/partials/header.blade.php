@@ -4,6 +4,7 @@
         <nav>
             <ul>
                 <li><a href="#">Characters</a></li>
+                
                 <li class="active"><a href="#">Comics</a></li>
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">TV</a></li>
