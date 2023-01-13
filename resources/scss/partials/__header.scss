@@ -2,7 +2,7 @@
 img{
     padding: 10px 0;
 }
-ul{
+.nav-list{
     list-style: none;
     display: flex;
     li{
@@ -26,3 +26,11 @@ ul{
     }
     
 }
+.jumbotron{
+    background-image: url("/resources/img/jumbotron.jpg");
+    
+    height: 70vh;
+    
+    background-size: cover;
+    
+  }
