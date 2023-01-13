@@ -1,0 +1,22 @@
+.main-top{
+    background-color: var(--secondary-color);
+    .my-container{
+      
+      h1{
+        color: var(--white-text);
+        padding: 40px 0;
+      }
+    }
+  }
+  .jumbotron{
+    background-image: url(../assets/jumbotron.jpg);
+    
+    height: 50vh;
+    
+    background-size: cover;
+    
+  }
+  .main-bottom{
+    background-color: var(--primary-color);
+    padding: 30px 0;
+  }

@@ -1,0 +1,28 @@
+
+img{
+    padding: 10px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    li{
+        display: inline-block;
+        padding: 8px 10px;
+        
+        a{
+            text-decoration: none;
+            line-height: 103px;
+            color: var(--secondary-color);
+            font-weight: 700;
+            position: relative;
+        }
+    }
+}
+.active{
+   
+    border-bottom: 5px solid var(--my-primary-color);
+    a{
+        color: var(--my-primary-color);
+    }
+    
+}

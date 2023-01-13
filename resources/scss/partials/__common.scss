@@ -1,0 +1,36 @@
+.my-container{
+    max-width: 1200px;
+    margin:auto;
+    
+    &.j-content-sb{
+        justify-content: space-between;
+    }
+    
+}
+
+.my-card{
+    display: flex;
+    color: var(--white-text);
+    align-items: center;
+    justify-content: space-between;
+    
+    img{
+        height: 40%;
+        
+    }
+    h3{
+        flex-grow: 1;
+        padding-left: 10px;
+        font-weight: 300;
+        
+    }
+}
+
+.my-btn{
+    color: var(--my-white-text);
+    background-color: inherit;
+    border-color: var(--my-primary-color);
+    
+    padding: 10px;
+    
+}
